@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eating Primal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark">
+<div class="container-fluid">
+	<a class="navbar-brand" href="#"><img src="images/biglogo.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler-icon">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="#">Shop Now</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">About Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact Us</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">Our Menu</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src="images/search.png"></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src="images/account.png"></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><img src ="images/cart.png"></a>
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!-- start of banner -->
+	<section id="banner">
+		<img src="images/bannerfood.png">
+	</section>
+<!--- Jumbotron -->
+<div class="clearfix food"></div>
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-sm-12 col-md-4">
+		<div class="col-md-6 float-left">
+			<i><img src="images/food.gif"></i>
+		</div>
+		<div class="col-md-6 float-right">
+			<h4>VARIETY</h4>
+			<p>Different kinds of meals<br>to choose from!</p>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<div class="col-md-6 float-left">
+			<i><img src="images/customize.gif"></i>
+		</div>
+		<div class="col-md-6 float-right">
+			<h4>CUSTOM MEALS</h4>
+			<p>Fully customized dishes<br>to fit your palette.</p>
+		</div>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<div class="col-md-6 float-left">
+			<i><img class="delivery" src="images/delivery.gif"></i>
+		</div>
+		<div class="col-md-6 float-right pt25">
+			<h4>VARIETY</h4>
+			<p>Place an In-kitchen pickup<br>or deliver to your door.</p>
+		</div>
+	</div>
+</div>
+</div>
+<!--- Full meals -->
+<div class="clearfix"></div>
+<div class="container-fluid padding grey mt50">
+	<div class="row welcome text-center">
+		<div class="col-12 grey mt50">
+		<h3 class="display-4 text-center font-weight-bold">Full meals</h3>
+	</div>
+	<hr>
+</div>
+</div>
+
+<!--- Cards -->
+<div class="container-fluid padding grey pb80">
+	<div class="row padding pt50">
+		<div class="col-md-1"></div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+<!--- second row of cards -->
+	<div class="row padding mt40">
+		<div class="col-md-1"></div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+</div>
+
+<!--- Chefs intro -->
+<div class="container-fluid">
+	<div class="row padding mr-30 ">
+		<div class="col-md-6 ml15">
+			<img src="images/chefatside.png">
+		</div>
+		<div class="col-md-6 green">
+			<div class="container-chef">
+				<h1 class="chef-h1">EatingPrimal</h1>
+				<h2 class="chef-h2">Delicious. Chef Prepared.</h2>
+				<p class="chef-p">Our menu rotates constantly, based on our most popular dishes.<br>Our ingredients are REAL whole foods, free from steroids,<br> hormones, preservatives, and sugar. Our chef’s focus on low<br> carb, high fiber, low on glycemic index, anti-inflammatory to help<br> support your healthy lifestyle...</p>
+				<a href="#" class="btn btn-warning">Read more</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- By The Pound -->
+<div class="clearfix"></div>
+<div class="container-fluid padding grey">
+	<div class="row welcome text-center">
+		<div class="col-12 grey mt50">
+		<h3 class="display-4 text-center font-weight-bold">By The Pound</h3>
+		<p>All of our dishes are available à la carte</p>
+	</div>
+	<hr>
+</div>
+</div>
+<!--- Chef Logo -->
+	<section class="chef-logo">
+		<img src="images/logo.png">
+	</section>
+<!--- Cards -->
+<div class="container-fluid padding grey pb80 pr0 pl0">
+	<div class="row padding pt50">
+		<div class="col-md-1"></div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="card">
+				<img class="card-img-top" src="images/cardimage.png">
+				<div class="card-body">
+					<h5 class="card-titlece text-center">Cage Free Egg and<br> Breakfast Sausage</h5>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning">see more</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+<!--- Newsletter -->
+<section class="home-newsletter mt80">
+	<div class="container-fluid pr0 pl0">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="single">
+					<h2 class=>Join our newsletter<br>keep up to date with us</h2>
+					<div class="input-group">
+         				<input type="email" class="form-control" placeholder="Enter your email">
+       					<span class="input-group-btn">
+         					<button class="btn btn-theme" type="submit">Subscribe</button>
+         				</span>
+          			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--- Footer -->
+<footer class="container-fluid">
+	<div class="row green pt50 pb80 mb-50">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-2 footerlogo">
+			<a href=""><img src="images/footerlogo.png"></a>
+		</div>
+		<div class="col-md-2 footertext">
+			<ul>
+				<li class=" footertextstyle"><span class="footertextmain">COMPANY</span></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Careers</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Contact Us</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Terms</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Privacy</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2 footertextte">
+			<ul>
+				<li class=" footertextstyle"><span class="footertextmain">LEARN MORE</span></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Our Menu</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Why Us?</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">FAQ</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Blog</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<ul>
+				<li class=" footertextstyle"><span class="footertextmain">JOIN US</span></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Facebook</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Instagram</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Twitter</a></li>
+				<li class=" footertextstyle"><a class=" footertext" href="#">Pinterest</a></li>
+			</ul>
+		</div>
+		<div class="col-md-2">
+		</div>
+	</div>
+</footer>
+</body>
+</html>
+
